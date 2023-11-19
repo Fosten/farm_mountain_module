@@ -1,0 +1,14 @@
+{
+  "name": "fosten/farm_mountain_module",
+  "description": "New contrib module for farmOS",
+  "type": "drupal-module",
+  "authors": [
+      {
+          "name": "Brian Davis",
+          "email": "info@lillymountain.com"
+      }
+  ],
+  "require": {
+    "farmos/farmos": "^3.0"
+  }
+}
