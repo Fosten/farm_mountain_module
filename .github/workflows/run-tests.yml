@@ -20,7 +20,7 @@ jobs:
       MODULE_NAME: farm_mountain_module
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Start containers
         run: docker-compose up -d
       - name: Include module dependencies
